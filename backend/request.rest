@@ -1,8 +1,30 @@
 POST http://localhost:3000/api/services
-Content-Type: application/application/json
+Content-Type: application/json
 
 {
     "name": "Algum Serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image": "url2"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+ GET http://localhost:3000/api/services/64e395954c538d18315eff3d
+###
+
+ DELETE  http://localhost:3000/api/services/64e397b04073b0b3673dd29d
+
+###
+ PUT http://localhost:3000/api/services/64e3cae4f56038e6821fb192
+Content-Type: application/json
+
+{
+    "name": "Algum Serviço69",
     "description": "Alguma descrição",
     "price": 1400,
     "image": "url"
