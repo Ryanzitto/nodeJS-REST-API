@@ -29,3 +29,29 @@ Content-Type: application/json
     "price": 1400,
     "image": "url"
 }
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "MEU EVENTO",
+    "author": "Ryan",
+    "description": "uma festa",
+    "budget": 9000,
+    "image": "url",
+    "services": [
+    {
+      "name": "Algum Serviço",
+      "description": "Alguma descrição",
+      "price": 1400,
+      "image": "url"
+    },
+    {
+      "name": "Algum Serviço2",
+      "description": "Alguma descrição2",
+      "price": 1400,
+      "image": "url2"
+    }
+    ]
+}
