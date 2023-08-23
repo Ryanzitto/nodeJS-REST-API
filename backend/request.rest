@@ -55,3 +55,16 @@ Content-Type: application/json
     }
     ]
 }
+
+###
+GET http://localhost:3000/api/parties
+
+###
+
+GET http://localhost:3000/api/parties/64e40b1f512d5af83005495b
+###
+
+DELETE  http://localhost:3000/api/parties/64e40b1f512d5af83005495b
+###
+
+PUT  http://localhost:3000/api/parties/64e55d42ce8adbac53600956
